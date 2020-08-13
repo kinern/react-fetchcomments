@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to top, white, lightblue);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+}
+
+.comment-box, .comment-list {
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 5px 0 lightblue;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+.btn-group {
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:skyblue;
+}
+
+nav a, nav .btn-signin {
+    text-decoration: none !important;
+    background:none;
+    color: white;
+    border:none;
+    margin-right:10px;
+    padding:5px;
+}
+
+nav a:hover, nav .btn-signin:hover {
+    color:teal;
+    cursor: pointer;
+}
+
+nav ul {
+    margin-bottom:0px !important;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
